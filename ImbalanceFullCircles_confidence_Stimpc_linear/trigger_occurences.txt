@@ -1,0 +1,21 @@
+block_start: 105
+trialnumber: dec2bin(trial, 8);
+trial_start: 150
+stim_strong_right or stim_strong_left: 40 or 41
+stim_onset: 64
+10 x con_change: 50
+
+(left_resp_conf_high_too_early or right_resp_conf_high_too_early or left_resp_conf_low_too_early or right_resp_conf_low_too_early: 27 or 25 or 26 or 24)
+decision_start: 48
+left_resp_conf_high or right_resp_conf_high or left_resp_conf_low or right_resp_conf_low: 23 or 21 or 22 or 20
+correct_resp or error_resp or no_decisions: 29 or 28 or 88
+feedback_start: 46
+feedback_correct or feedback_incorrect or feedback_late: 11 or 10 or 12
+feedback_stop: 56
+blink_onset: 73
+blink_offset: 76
+trial_end: 151
+
+
+
+weird triggers: 1190, 1223, 1047, 1114
